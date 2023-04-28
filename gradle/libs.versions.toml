@@ -9,6 +9,7 @@ compose-activity = "1.6.1"
 junit = "4.13.2"
 androidx-junit = "1.1.5"
 androidx-espresso = "3.5.1"
+lifecycle-viewmodel-compose = "2.6.1"
 
 
 [plugins]
@@ -23,6 +24,7 @@ androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "anro
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
 androidx-espresso= { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidx-espresso" }
+lifecycle-viewmodel-compose= { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle-viewmodel-compose" }
 
 compose-bom= { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
 compose-fundation= { group = "androidx.compose.foundation", name = "foundation" }
