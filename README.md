@@ -16,4 +16,12 @@ mechanism through which the state changes, resulting in changes to the UI.**
 
 ## State is. Event happen
 
+Creating an updated UI by re-executing composable functions => this is called **recomposition** 
+
+**The Composition:** a description of the UI built by Jetpack Compose when it executes composables.
+
+**Initial composition:** creation of a Composition by running composables the first time.
+
+**Recomposition:** re-running composables to update the Composition when data changes.
+
 
