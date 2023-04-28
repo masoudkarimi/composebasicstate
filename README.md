@@ -33,5 +33,25 @@ The output of the Composition is a **tree-structure** that describes the UI.
 
 **rememberSaveable**: Retained  across configuration changes
 
+## Stateful and Stateless composables
+
+**Stateful:** Composable that uses remember to store an object contains internal state
+
+**Stateless:** Composables that don't hold any state
+
+How to create stateless composables? By using **state hoisting**
+
+## State hoisting
+State hoisting in Compose is a pattern of moving state to a composable's caller to make a 
+composable stateless.
+
+The pattern where the **state goes down**, and **events go up** is called **Unidirectional Data 
+Flow (UDF)**, and state hoisting is how we implement this architecture in Compose.
+
+Because **hoisted state** can be shared, be sure to pass only the state that the composables need to 
+avoid unnecessary recompositions, and to increase reusability.
+
+
+
 
 
