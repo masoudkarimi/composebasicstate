@@ -25,3 +25,13 @@ Creating an updated UI by re-executing composable functions => this is called **
 **Recomposition:** re-running composables to update the Composition when data changes.
 
 
+The output of the Composition is a **tree-structure** that describes the UI.
+
+## Remember vs. RememberSaveable
+
+**remember**: Retain state across recomposition
+
+**rememberSaveable**: Retained  across configuration changes
+
+
+
